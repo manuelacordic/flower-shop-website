@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!-- karakter set -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- responsive -->
+    <link rel="stylesheet" href="style.css"> <!-- glavni CSS -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600&display=swap" rel="stylesheet"> <!-- fontovi -->
+    <title>Flora Flower Shop</title>
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header class="header">
+        <img src="slike/logocb.png" alt="Logo">
+        <ul>
+            <li><a href="index.html">Početna</a></li>
+            <li><a href="galerija.html">Buketi</a></li>
+            <li><a href="#">Naša priča</a></li>
+            <li><a href="#">Kontakt</a></li>
+        </ul>
+    </header>
+
+    <!-- HERO / GLAVNI BANER -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Cvijeće koje govori umjesto riječi</h1>
+                <p>
+                    Ručno rađeni buketi za posebne trenutke.<br>
+                    Svježe cvijeće, pažljivo odabrano i dostavljeno s ljubavlju.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-primary">Odaberi buket</a>
+                    <a href="#" class="btn btn-outline">Kreiraj svoj buket</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="slike/buket.png" alt="Bouquet">
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US / ZAŠTO MI -->
+    <section class="why-us">
+        <h2>Zašto mi?</h2>
+        <div class="why-items">
+            <div class="why-item">
+                <img src="slike/delivery-truck.png" alt="">
+                <h3>Lokalna dostava</h3>
+                <p>Dostavljamo brzo i sigurno</p>
+            </div>
+            <div class="why-item">
+                <img src="slike/bouquet.png" alt="">
+                <h3>Svježe cvijeće</h3>
+                <p>Pažljivo birani buketi</p>
+            </div>
+            <div class="why-item">
+                <img src="slike/football.png" alt="">
+                <h3>Kvalitet</h3>
+                <p>Više od 1000 zadovoljnih kupaca</p>
+            </div>
+            <div class="why-item">
+                <img src="slike/team.png" alt="">
+                <h3>Iskusan tim</h3>
+                <p>Ljubav prema cvijeću</p>
+            </div>
+            <div class="why-item">
+                <img src="slike/clock.png" alt="">
+                <h3>Tačna isporuka</h3>
+                <p>Uvijek na vrijeme</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CATALOG / KATALOG -->
+    <section class="catalog">
+        <h2 class="section-title">Katalog</h2>
+        <div class="carousel-wrapper">
+            <button class="carousel-btn left" onclick="prevSlide()">‹</button>
+            <div class="catalog-list">
+                <!-- pojedinačne kartice proizvoda -->
+                <div class="product-card">
+                    <img src="slike/buket1.jfif" alt="Buket Suncokret">
+                    <h3>Ivory Dream</h3>
+                    <p class="price">65 KM</p>
+                    <ul>
+                        <li>bijele ruže</li> 
+                        <li>eukaliptus</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket2.jfif" alt="Buket Elegance"> 
+                    <h3>Blush Romance</h3> <p class="price">75 KM</p> 
+                    <ul> 
+                        <li>svijetloružičaste ruže</li> 
+                        <li>božuri</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket3.jfif" alt="Buket Classic"> 
+                    <h3>Pure Elegance</h3> 
+                    <p class="price">55 KM</p> 
+                    <ul> 
+                        <li>bijeli cvjetovi</li> 
+                        <li>minimalistički stil</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket4.jfif" alt="Buket Classic"> 
+                    <h3>Golden Sun</h3> 
+                    <p class="price">90 KM</p> 
+                    <ul> <li>suncokreti</li> 
+                        <li>zelenilo</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket5.jfif" alt="Buket Classic"> 
+                    <h3>Green Whisper</h3> 
+                    <p class="price">60 KM</p> 
+                    <ul> 
+                        <li>eukaliptus</li> 
+                        <li>bijeli cvjetovi</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket6.jfif" alt="Buket Classic"> 
+                    <h3>Soft Garden</h3> 
+                    <p class="price">70 KM</p> 
+                    <ul> 
+                        <li>miks pastelnih cvjetova</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket7.jfif" alt="Buket Classic"> 
+                    <h3>Rose Affair</h3> 
+                    <p class="price">80 KM</p> 
+                    <ul> <li>crvene ruže</li> 
+                        <li>elegantno pakovanje</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket8.jfif" alt="Buket Classic"> 
+                    <h3>Morning Bloom</h3> 
+                    <p class="price">50 KM</p> 
+                    <ul> 
+                        <li>proljetno cvijeće</li> 
+                        <li>svijetle boje</li> 
+                    </ul> 
+                </div> 
+                <div class="product-card"> 
+                    <img src="slike/buket9.jfif" alt="Buket Classic"> 
+                    <h3>Nude Poetry</h3> 
+                    <p class="price">80 KM</p> 
+                    <ul> <li>nude, bež i krem tonovi</li> 
+                    </ul> </div> <div class="product-card"> 
+                        <img src="slike/buket10.jfif" alt="Buket Classic"> 
+                        <h3>Wild Grace</h3> 
+                        <p class="price">65 KM</p> 
+                        <ul> 
+                            <li>prirodni, "divlji" stil</li> 
+                        </ul> 
+                    </div>
+                
+            </div>
+            <button class="carousel-btn right" onclick="nextSlide()">›</button>
+        </div>
+    </section>
+
+    <!-- DELIVERY / DOSTAVA -->
+    <section class="delivery">
+        <h2>Dostava</h2>
+        <div class="flowers-bg">
+            <div class="paper-card">
+                <p>
+                    Dostavu vršimo svakodnevno na području grada.  
+                    Buketi se pakuju pažljivo i stižu svježi na vašu adresu.
+                </p>
+                <div class="payment-icons">
+                    <img src="slike/symbols.png" alt="Visa">
+                    <img src="slike/card.png" alt="Mastercard">
+                    <img src="slike/paypal-logo.png" alt="Paypal">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col nav-col">
+                <h4>Navigacija</h4>
+                <ul>
+                    <li><a href="index.html">Početna</a></li>
+                    <li><a href="galerija.html">Buketi</a></li>
+                    <li><a href="#">Naša priča</a></li>
+                    <li><a href="#">Kontakt</a></li>
+                </ul>
+            </div>
+            <div class="footer-col logo-col">
+                <img src="slike/logocb.png" alt="Logo">
+                <p class="footer-brand">Cvjećara Flora</p>
+                <span class="footer-line"></span>
+                <p class="footer-tagline">Pažljivo birano. Nježno aranžirano.</p>
+            </div>
+            <div class="footer-col contact-col">
+                <h4>Kontakt</h4>
+                <div class="footer-info">
+                    <img src="slike/phone-call.png" alt="">
+                    <span>+387 62 555 888</span>
+                </div>
+                <div class="footer-info">
+                    <img src="slike/email.png" alt="">
+                    <span>info@flore.ba</span>
+                </div>
+                <div class="footer-info">
+                    <img src="slike/location.png" alt="">
+                    <span>Ružina 27, Floragrad</span>
+                </div>
+                <div class="footer-socials">
+                    <img src="slike/video.png" alt="">
+                    <img src="slike/facebook.png" alt="">
+                    <img src="slike/social.png" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- JS za carousel -->
+</body>
+</html>
